@@ -21,8 +21,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.enrique.apprater.AppRater;
-import com.mattieapps.roommates.fragments.BitcoinFragment;
-import com.mattieapps.roommates.fragments.CurrencyConversionFragment;
 import com.mattieapps.roommates.fragments.RentCalFragment;
 import com.mattieapps.roommates.fragments.TipCalFragment;
 import com.mattieapps.roommates.systems.BaseActivity;
@@ -46,8 +44,6 @@ public class MainActivity extends BaseActivity {
 
     private RentCalFragment rentCalFragment;
     private TipCalFragment tipCalFragment;
-    private CurrencyConversionFragment currencyConversionFragment;
-    private BitcoinFragment bitcoinFragment;
     private FragmentManager fragmentManager;
     private FragmentTransaction fragmentTransaction;
 
@@ -90,23 +86,17 @@ public class MainActivity extends BaseActivity {
         nav_drawer_items = new String[] {
                 "Rent Calculator",
                 "Tip Calculator",
-                "BitCoin Prices",
-              //  "Currency Conversion",
                 "Settings"
         };
 
         nav_drawer_icons = new int[] {
                 R.drawable.ic_home,
                 R.drawable.ic_calculator,
-                R.drawable.ic_action_bitcoin,
-               // 0,
                 R.drawable.ic_action_settings
         };
 
         rentCalFragment = new RentCalFragment();
         tipCalFragment = new TipCalFragment();
-        currencyConversionFragment = new CurrencyConversionFragment();
-        bitcoinFragment = new BitcoinFragment();
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         String startFragment = preferences.getString("customHomeScreen", "Rent");
@@ -127,24 +117,6 @@ public class MainActivity extends BaseActivity {
             fragmentTransaction.commit();
 
             isFragmentNumber = 1;
-        }
-
-        if (startFragment.equals("Currency")) {
-            fragmentManager = getSupportFragmentManager();
-            fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.content_frame, currencyConversionFragment);
-            fragmentTransaction.commit();
-
-            isFragmentNumber = 2;
-        }
-
-        if (startFragment.equals("BitCoin")){
-            fragmentManager = getSupportFragmentManager();
-            fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.content_frame, bitcoinFragment);
-            fragmentTransaction.commit();
-
-            isFragmentNumber = 3;
         }
 
         //Begin Main Nav Drawer Code
@@ -332,12 +304,6 @@ public class MainActivity extends BaseActivity {
                     fragmentTransaction.commit();
 
                     isFragmentNumber = 1;
-                    break;
-                case 2:
-                    fragmentTransaction.replace(R.id.content_frame, bitcoinFragment);
-                    fragmentTransaction.commit();
-
-                    isFragmentNumber = 2;
                     break;
                 case 3:
                     Intent intent = new Intent(getApplication(), Settings.class);
