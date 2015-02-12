@@ -86,12 +86,14 @@ public class MainActivity extends BaseActivity {
         nav_drawer_items = new String[] {
                 "Rent Calculator",
                 "Tip Calculator",
+                "Share",
                 "Settings"
         };
 
         nav_drawer_icons = new int[] {
                 R.drawable.ic_home,
                 R.drawable.ic_calculator,
+                android.R.drawable.ic_menu_share,
                 R.drawable.ic_action_settings
         };
 
@@ -304,6 +306,13 @@ public class MainActivity extends BaseActivity {
                     fragmentTransaction.commit();
 
                     isFragmentNumber = 1;
+                    break;
+                case 2:
+                    Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                    shareIntent.setType("text/plain");
+                    shareIntent.putExtra(Intent.EXTRA_SUBJECT, "I found a new app that I love and that that you'll love!");
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, "Download #RoomMates Life Calculator from the @GooglePlay at bit.ly/roommatesandroid");
+                    startActivity(Intent.createChooser(shareIntent, "Share via"));
                     break;
                 case 3:
                     Intent intent = new Intent(getApplication(), Settings.class);
