@@ -1,71 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-70a07c98e34df36a4db8caa4cbeb3220525d36f1.jar"
-        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-74063f580e2dc882adde682ba8739ccec5e4d2ef.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/6.5.87/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        sha1="48b5a99e20096697c4bc60a714a5f2ed686573ef">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-3cf9438c9475d9c65d0c70649042ca50bceb4059.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Downloads/NavDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-b2cc724926111725b0041aed339af59dbc069cc5.jar"
-        jar="/Users/andrewmattie/Downloads/NavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-eb32da4fe6e07fbcf2743e85061a0ea20cc358fc.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-7e95a3dc9a20c3a23b8b2ded24ca598a4bcfac14.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-eb32da4fe6e07fbcf2743e85061a0ea20cc358fc.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Downloads/NavDrawer/app/build/intermediates/pre-dexed/debug/classes-b07bb4b3ca5d6cde6354cba596eb0c3f202f552d.jar"
-        jar="/Users/andrewmattie/Downloads/NavDrawer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-77b373c8abc4905a659ce27e35cb8c2126ccf451.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Documents/AndroidStudioProjects/NavDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-566040d10083c93cf35d8779e8c8cd3b42b42769.jar"
-        jar="/Users/andrewmattie/Documents/AndroidStudioProjects/NavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-dfe3ede5e58dfefed1b3d13f15d803e1a21f985d.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-77b373c8abc4905a659ce27e35cb8c2126ccf451.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.nispok/snackbar/2.7.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8978e7dcc38f34ee676a816ed026545eb5f34c34">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-5af45fe540a3206c086006409af061720bebd232.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-2771b7d0f0452798fb382a9290da183303214095.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-f21d574bac3cac34262f3196f82992f4a609f5f5.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-dfe3ede5e58dfefed1b3d13f15d803e1a21f985d.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-5540f1a7a878eb8bcff58e7b5defe335ddb6336e.jar"
-        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.3.0/classes.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="4523a57658d80bf5ad025858f1730d435e5699b4"/>
+        sha1="6804efbb78d7facc2e1aa107c7342bee83afae45">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-2a10d10f640720cab43c6ea7a3b650ae1f4defb4.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Documents/AndroidStudioProjects/NavDrawer/app/build/intermediates/pre-dexed/debug/classes-6740de0207cfdd1df7321c7efaebbaad434e085e.jar"
-        jar="/Users/andrewmattie/Documents/AndroidStudioProjects/NavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-7c5f4778efc382a2aa45e3350a27e26fb7eadf36.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Downloads/NavDrawer/app/build/intermediates/pre-dexed/debug/classes-b59ad138b77397c7eaedc3347ef084f1fc0cba55.jar"
-        jar="/Users/andrewmattie/Downloads/NavDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-0c453e16b009a662ddc1300a2e19d4e31516fa70.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-2dac8e809bf7075c637934f17335b9eb1009f684.jar"
-        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jar="/Users/andrewmattie/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-84991c4e9b1953a3b7220f6a481f94d0b536c808.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Documents/AndroidStudioProjects/NavDrawer/app/build/intermediates/pre-dexed/debug/classes-d21c400b7c7e57b3d2d286ccf9cd371bcf5b6e21.jar"
-        jar="/Users/andrewmattie/Documents/AndroidStudioProjects/NavDrawer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
-        revision="21.1.1"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-c0b56fc6395cc4928152fa5a35e0062e15330e38.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Downloads/NavDrawer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-84991c4e9b1953a3b7220f6a481f94d0b536c808.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/libs/Parse-1.8.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c2cb0bfe37cbefd855b6faa3c9a5be833aba7300">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/Parse-1.8.2-ab29d794dc592d24e8f231b4e1d9cf291da21ed1.jar" />
+    </item>
+    <item
         jar="/Users/andrewmattie/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-84991c4e9b1953a3b7220f6a481f94d0b536c808.jar" />
+    </item>
     <item
-        dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-026d11323ecd954ae1f55fbeacec8db114f0c9e8.jar"
-        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6804efbb78d7facc2e1aa107c7342bee83afae45">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-2a10d10f640720cab43c6ea7a3b650ae1f4defb4.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-f21d574bac3cac34262f3196f82992f4a609f5f5.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-863514318011f921f041f4641b4fd19bda19e17c.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-5c05e6a3bcc499ec6a3c04f8ec9a348c0e64717c.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-eb2ff0100e781b5b52ebd5843db97d623d6c60d0.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-7c5f4778efc382a2aa45e3350a27e26fb7eadf36.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.nispok/snackbar/2.7.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="8978e7dcc38f34ee676a816ed026545eb5f34c34">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-5af45fe540a3206c086006409af061720bebd232.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.4.7/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="784fd42d28d741db3c8ac700451eda959dc69f01">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-c6e869db2852d6f8ccaf1a260745e4ec615f9a50.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/app/build/intermediates/pre-dexed/debug/classes-0c453e16b009a662ddc1300a2e19d4e31516fa70.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6384c6cd674a22610b932d9464aa6938d067f285">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-3cf9438c9475d9c65d0c70649042ca50bceb4059.jar" />
+    </item>
+    <item
+        jar="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6d0674e100cbdda5d798f92a844bc6b2adf41fb8">
+        <dex dex="/Users/andrewmattie/Documents/GithubWorkspace/roommates/roommates-android/wear/build/intermediates/pre-dexed/debug/classes-2771b7d0f0452798fb382a9290da183303214095.jar" />
+    </item>
 
-</pre-dex-items>
+</items>
