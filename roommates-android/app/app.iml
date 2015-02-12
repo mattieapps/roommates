@@ -86,6 +86,7 @@
     <orderEntry type="library" exported="" name="snackbar-2.7.2" level="project" />
     <orderEntry type="library" exported="" name="material-dialogs-0.4.7" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-21.0.3" level="project" />
+    <orderEntry type="library" exported="" name="AppRate-Android-1.0-RELEASE" level="project" />
     <orderEntry type="library" exported="" name="play-services-6.5.87" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.3" level="project" />

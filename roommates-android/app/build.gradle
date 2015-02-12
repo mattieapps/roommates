@@ -32,5 +32,5 @@ dependencies {
     compile 'com.parse.bolts:bolts-android:1.+'
     compile fileTree(dir: 'libs', include: 'Parse-*.jar')
 
-//    wearApp project(':wear')
+    compile 'com.github.kikoso:AppRate-Android:1.0-RELEASE'
 }
