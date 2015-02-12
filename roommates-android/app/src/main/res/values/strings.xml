@@ -38,8 +38,6 @@
     <string-array name="default_home_setting">
         <item>Rent</item>
         <item>Tip</item>
-        <!--<item>Currency</item>-->
-        <item>BitCoin</item>
     </string-array>
 
     <string-array name="app_colors">
