@@ -22,8 +22,8 @@ public class RentCalFragment extends Fragment {
     ImageButton mEqualFab, mRentUpBtn, mRentDownBtn, mPeopleUpBtn, mPeopleDownBtn;
     TextView mOutputText;
 
-    double rentPrice = 0;
-    double peopleCount = 0;
+    double rentPrice = 0.0;
+    double peopleCount = 0.0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -51,8 +51,8 @@ public class RentCalFragment extends Fragment {
                 if (mRentPriceEditText.getText().toString().equals("")){
                     mRentPriceEditText.setText("0");
                 } else {
-                    rentPrice = Integer.parseInt(mRentPriceEditText.getText().toString());
-                    double output = rentPrice + 1;
+                    rentPrice = Double.parseDouble(mRentPriceEditText.getText().toString());
+                    double output = rentPrice + 1.0;
                     mRentPriceEditText.setText(String.valueOf(output));//Convert out to string
                 }
             }
@@ -61,8 +61,8 @@ public class RentCalFragment extends Fragment {
         mRentDownBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                rentPrice = Integer.parseInt(mRentPriceEditText.getText().toString());
-                double output = rentPrice-1;
+                rentPrice = Double.parseDouble(mRentPriceEditText.getText().toString());
+                double output = rentPrice - 1.0;
                 mRentPriceEditText.setText(String.valueOf(output));//Convert out to string
             }
         });
@@ -70,8 +70,8 @@ public class RentCalFragment extends Fragment {
         mPeopleUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                peopleCount = Integer.parseInt(mPeopleCountEditText.getText().toString());
-                double output = peopleCount+1;
+                peopleCount = Double.parseDouble(mPeopleCountEditText.getText().toString());
+                double output = peopleCount + 1.0;
                 mPeopleCountEditText.setText(String.valueOf(output));//Convert out to string
             }
         });
@@ -79,8 +79,8 @@ public class RentCalFragment extends Fragment {
         mPeopleDownBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                peopleCount = Integer.parseInt(mPeopleCountEditText.getText().toString());
-                double output = peopleCount-1;
+                peopleCount = Double.parseDouble(mPeopleCountEditText.getText().toString());
+                double output = peopleCount + 1.0;
                 mPeopleCountEditText.setText(String.valueOf(output));//Convert out to string
             }
         });
@@ -88,8 +88,8 @@ public class RentCalFragment extends Fragment {
         mEqualFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                rentPrice = Integer.parseInt(mRentPriceEditText.getText().toString());
-                peopleCount = Integer.parseInt(mPeopleCountEditText.getText().toString());
+                rentPrice = Double.parseDouble(mRentPriceEditText.getText().toString());
+                peopleCount = Double.parseDouble(mPeopleCountEditText.getText().toString());
 
                 if (rentPrice != 0 && peopleCount != 0) {
                     double output = rentPrice / peopleCount;
