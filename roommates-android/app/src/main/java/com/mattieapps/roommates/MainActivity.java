@@ -20,6 +20,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.enrique.apprater.AppRater;
 import com.mattieapps.roommates.fragments.BitcoinFragment;
 import com.mattieapps.roommates.fragments.CurrencyConversionFragment;
 import com.mattieapps.roommates.fragments.RentCalFragment;
@@ -68,6 +69,12 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        new AppRater(this)
+                .setMinDays(7)
+                .setMinLaunches(10)
+                .setAppTitle(getResources().getString(R.string.app_name))
+                .init();
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         boolean wantsUpdates = sharedPreferences.getBoolean("receiveNotifications", true);
