@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoomMates</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Nastavení</string>
+
+    <string name="drawer_open">Otevřít</string>
+    <string name="drawer_close">Zavřít</string>
+
+    <string name="up">Navýšit</string>
+    <string name="down">Snížit</string>
+    <string name="priceOfRent">Cena nájmu:</string>
+    <string name="numbOfPeople">Počet členů domácnosti:</string>
+    <string name="numbOfPeopleHint"># členů</string>
+    <string name="zero">0</string>
+    <string name="rentController">Ovladač nájmu</string>
+    <string name="peopleController">Ovladač # členů</string>
+    <string name="output">Výsledek:</string>
+    <string name="fab">fab</string>
+    <string name="rent">Nájem</string>
+    <string name="clear">Vyčistit</string>
+
+    <string name="moneysymbol_usd">CZK</string>
+    
+    <string-array name="default_home_setting">
+        <item>Nájem</item>
+        <item>Tip</item>
+    </string-array>
+
+    <string-array name="app_colors">
+        <item>Černá</item>
+        <item>Bílá</item>
+        <item>Ćervená</item>
+        <item>Růžová</item>
+        <item>Fialová</item>
+        <item>Tmavěmodrá</item>
+        <item>Modrozelená</item>
+        <item>Zelená</item>
+        <item>Žlutá</item>
+    </string-array>
+
+</resources>
