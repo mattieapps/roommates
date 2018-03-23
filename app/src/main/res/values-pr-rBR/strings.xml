@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Companheiros de quarto</string>
+    <string name="hello_world">Olá, Mundo!</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+
+    <string name="up">Subir</string>
+    <string name="down">Descer</string>
+    <string name="priceOfRent">Preço do aluguel:</string>
+    <string name="numbOfPeople">Número de Pessoas na Casa:</string>
+    <string name="numbOfPeopleHint"># de Pessoas</string>
+    <string name="zero">0</string>
+    <string name="rentController">Controlador de aluguel</string>
+    <string name="peopleController">Pessoas # Controlador</string>
+    <string name="output">Montante:</string>
+    <string name="fab">fab</string>
+    <string name="rent">Aluguel</string>
+    <string name="clear">Limpar</string>
+
+    <string name="moneysymbol">R$</string>
+
+    <string-array name="default_home_setting">
+        <item>Despesas</item>
+        <item>Aluguel</item>
+        <item>Gorjeta</item>
+        <item>Empréstimo</item>
+    </string-array>
+
+    <string-array name="app_colors">
+        <item>Preto</item>
+        <item>Branco</item>
+        <item>Vermelho</item>
+        <item>Rosa</item>
+        <item>Roxo</item>
+        <item>Azul</item>
+        <item>Azul-Petróleo</item>
+        <item>Verde</item>
+        <item>Âmbar</item>
+        <item>Cinza Azulado</item>
+        <item>Companheiros de Quarto</item>
+    </string-array>
+
+    <string-array name="statusArray">
+        <item>Eu devo</item>
+        <item>Eles devem</item>
+        <item>Decidido</item>
+    </string-array>
+
+    <string-array name="alarmArray">
+        <item>Nenhum</item>
+        <item>Uma vez</item>
+        <item>Diariamente</item>
+        <item>Semanalmente</item>
+        <item>Mensalmente</item>
+        <item>Anualmente</item>
+    </string-array>
+
+    <string-array name="gratuity_array">
+        <item>14%</item>
+        <item>15%</item>
+        <item>16%</item>
+        <item>17%</item>
+        <item>18%</item>
+        <item>19%</item>
+        <item>20%</item>
+        <item>21%</item>
+        <item>22%</item>
+    </string-array>
+
+    <string name="involvedPartiesEditText">Pessoa envolvida</string>
+    <string name="expensePriceHint">Preço da Despesa</string>
+    <string name="expenseNameHint">Nome da Despesa</string>
+    <string name="mateNameHint">Nome do Colega</string>
+    <string name="mateEmailHint">E-mail do Colega</string>
+    <string name="save">Salvar</string>
+    <string name="Save">Salvar</string>
+    <string name="delete">Excluir</string>
+    <string name="editmate">Editar Colega</string>
+</resources>
